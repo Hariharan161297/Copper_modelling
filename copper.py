@@ -6,11 +6,11 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import LabelBinarizer
+from sklearn.preprocessing import OrdinalEncoder
 import streamlit as st
 import re
 st.set_page_config(layout="wide")
-from sklearn.preprocessing import OrdinalEncoder
-from sklearn.preprocessing import LabelEncoder
+
 
 
 
@@ -152,14 +152,10 @@ with tab2:
             # Fit and transform the categorical columns to integers
             new_sample[:, categorical_columns] = ordinal_encoder.fit_transform(new_sample[:, categorical_columns])
 
-            new_sample = new_sample.astype("float64")
- 
-            
-
-            
- 
+            new_sample = new_sample.astype("float64") 
  
             new_pred = cloaded_model.predict(new_sample)
+            
             if new_pred==1:
                 st.write('## :green[The Status is Won] ')
             else:
@@ -167,26 +163,3 @@ with tab2:
 
 
 
-
-
-
-
-
-            #                 citem_type_mapping = {'W': 1, 'WI': 2, 'S': 3, 'Others': 4, 'PL': 5, 'IPL': 6, 'SLAWR': 3}
-            # new_sample['citem_type'] = new_sample['citem_type'].map(citem_type_mapping)
-                
-    
-
-
-
-
-
-
-
-
-
-
-
-
-            
-            
