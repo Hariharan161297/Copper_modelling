@@ -41,7 +41,6 @@ Make sure these libraries are installed in your Python environment before runnin
 
 5. **Documentation**: Prepare a comprehensive documentation summarizing the steps involved in the analysis, including the preprocessing techniques, machine learning algorithms used, and their performance. Include visualizations and interpretations to effectively communicate the results.
 
-![image](https://github.com/Hariharan161297/Copper_modelling/assets/146412784/90e57554-e79a-4b99-b2e0-ead83d2fbd9c)
 
 ![image](https://github.com/Hariharan161297/Copper_modelling/assets/146412784/4dc05876-33d3-4589-8387-eeef9890461c)
 
