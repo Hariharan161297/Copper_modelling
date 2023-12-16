@@ -43,8 +43,6 @@ Make sure these libraries are installed in your Python environment before runnin
 
 ![image](https://github.com/Hariharan161297/Copper_modelling/assets/146412784/90e57554-e79a-4b99-b2e0-ead83d2fbd9c)
 
-![image](https://github.com/Hariharan161297/Copper_modelling/assets/146412784/b58de0c7-1943-4d95-938a-549ed396694d)
-
 
 
 ## Conclusion
